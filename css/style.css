@@ -1,0 +1,78 @@
+.banner{
+    background-color: #222;
+    width:800px;
+    height: 300px;
+    margin:0 auto;
+    position: relative;
+    color: #fff;
+    border: 3px solid #f0f0f0;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #222;
+    text-transform: uppercase;
+}
+img .bg{
+    position: absolute;
+    left:0;
+    top:0;
+}
+.banner ul{
+    z-index: 999;
+    position: absolute;
+    top:0;
+    right: 0;
+    list-style: none;
+    margin-top: 6px;
+}
+.banner ul li{
+    display: block;
+    width: 260px;
+}
+.banner li a{
+    width: 230px;
+    height: 52px;
+    display: block;
+    padding-left: 10px;
+    float: right;
+    text-decoration: none;
+    line-height: 52px;
+    color: #f0f0f0;
+    background-color: #222;
+    margin: 1px -20px 1px 0;
+    opacity: .6;
+    border: 2px solid #000;
+    font-size: 20px;
+    text-shadow: -1px 1px 1px #000000,-2px 2px 2px #000000;
+    border-radius: 10px 0 0 20px;
+}
+.banner ul li a:hover{
+    text-shadow: 0 0 2px #fff;
+}
+.banner .heading{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 500px;
+}
+.heading h1{
+    padding: 20px;
+    font-size: 45px;
+    font-weight: normal;
+    text-shadow: -1px -1px 2px #555;
+}
+.banner .description{
+    width: 500px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #222;
+    opacity: .6;
+    border-radius: 0 10px 0 0;
+    bordre-top:2px solid #000;
+    bordre-right:2px solid #000;
+}
+.description p{
+    text-shadow: -1px 1px 1px #000;
+    text-transform: none;
+    line-height: 26px;
+}
